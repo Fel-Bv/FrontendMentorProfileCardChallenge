@@ -1,0 +1,103 @@
+/*	ALL	 */
+* {
+	box-sizing: border-box;
+	user-select: none;
+}
+
+
+/*	····	Scrollbar	····	*/
+*::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+
+*::-webkit-scrollbar-button:increment, *::-webkit-scrollbar-button {
+	display: none;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #303030;
+    border-radius: 20px;
+    border: 0;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #808080;
+    border-radius: 10px;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+}
+
+.horizontal-layout {
+	display: flex;
+	flex-direction: row,
+}
+
+.vertical-layout {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.d-none { display: none; }
+
+
+
+.col-1 { width: 8.33% }
+.col-2 { width: 16.67% }
+.col-3 { width: 25.0% }
+.col-4 { width: 33.33% }
+.col-5 { width: 41.67% }
+.col-6 { width: 50.0% }
+.col-7 { width: 58.33% }
+.col-8 { width: 66.67% }
+.col-9 { width: 75.0% }
+.col-10 { width: 83.33% }
+.col-11 { width: 91.67% }
+.col-12 { width: 100.0% }
+
+
+
+.m-1 { margin: 8.33% }
+.m-2 { margin: 16.67% }
+.m-3 { margin: 25.0% }
+.m-4 { margin: 33.33% }
+.m-5 { margin: 41.67% }
+.m-6 { margin: 50.0% }
+.m-7 { margin: 58.33% }
+.m-8 { margin: 66.67% }
+.m-9 { margin: 75.0% }
+.m-10 { margin: 83.33% }
+.m-11 { margin: 91.67% }
+.m-12 { margin: 100.0% }
+
+
+
+.p-1 { padding: 8.33% }
+.p-2 { padding: 16.67% }
+.p-3 { padding: 25.0% }
+.p-4 { padding: 33.33% }
+.p-5 { padding: 41.67% }
+.p-6 { padding: 50.0% }
+.p-7 { padding: 58.33% }
+.p-8 { padding: 66.67% }
+.p-9 { padding: 75.0% }
+.p-10 { padding: 83.33% }
+.p-11 { padding: 91.67% }
+.p-12 { padding: 100.0% }
+
+
+
+@media only screen and (max-width: 375px) {
+	[class*='col-'] {
+		width: 100%;
+	}
+}
