@@ -27,11 +27,19 @@
 
 
 
+:root {
+	--dark-cyan: hsl(185, 75%, 39%);
+	--very-dark-desaturated-blue: hsl(229, 23%, 23%);
+	--dark-grayish-blue: hsl(227, 10%, 46%);
+	--dark-gray:  hsl(0, 0%, 59%);
+}
+
+
+
 body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: Helvetica, sans-serif;
 	font-size: 24px;
 }
 
@@ -93,11 +101,3 @@ body {
 .p-10 { padding: 83.33% }
 .p-11 { padding: 91.67% }
 .p-12 { padding: 100.0% }
-
-
-
-@media only screen and (max-width: 375px) {
-	[class*='col-'] {
-		width: 100%;
-	}
-}
