@@ -24,8 +24,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/css-flexbox-html5-X1x9dxOqw)
+- Live Site URL: [Live Site URL](https://fel-bv.github.io/FrontendMentorProfileCardChallenge/)
 
 ## My process
 
